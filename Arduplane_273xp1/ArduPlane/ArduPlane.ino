@@ -27,13 +27,11 @@
 // DISCLAIMER:
 // If you decide to test it on a real model this is at your own risk and I assume no responsability...
 //
-// Arduplane v2.73 xp1 - compatible with APM v1.5, APM v2.4, ArduFlyer v2.5x board and Mission Planner v 1.2.84 (not 1.2.85 and above)
+// Arduplane v2.73 xp1 - compatible with APM v1.5, APM v2.4, ArduFlyer v2.5x board and Mission Planner v1.2.84 and v1.2.86 or above, (don't use the MP v1.2.85)
 //
-// IMPORTANT NOTE for the ARDUFLYER 2.5.2 board (RCtimer): use the the Mission Planner v 1.2.84 (or lower version) ONLY.
-// Don't click on the auto-update button during the Mission Planner startup. The v1.2.85 and above doesn't work with the ArduFlyer v2.5.2 board...
 // see the full video of the AUTO-LANDING and AUTO-TAKEOFF test on X-Plane v9.70 in HIL mode at: http://vimeo.com/77580524
 // ------------------------------------------------------
-// Jean-Louis Naudin (JLN) updates: Last update : October 31, 2013
+// Jean-Louis Naudin (JLN) updates: Last update : November 6, 2013
 //
 // DOLIST:
 //
