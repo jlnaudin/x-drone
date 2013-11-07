@@ -292,11 +292,19 @@ static void NOINLINE send_gps_raw(mavlink_channel_t chan)
         g_gps->latitude,      // in 1E7 degrees
         g_gps->longitude,     // in 1E7 degrees
         g_gps->altitude * 10, // in mm
+#if X_PLANE == ENABLED        // JLN - to avoid BAD_GPS msg on the Mission Planner HUD
+        120,  // gps hdop = 1.2 m
+        65535,
+        g_gps->ground_speed,  // cm/s
+        g_gps->ground_course, // 1/100 degrees,
+        12);  // 12 sats in view          
+#else
         g_gps->hdop,
         65535,
         g_gps->ground_speed,  // cm/s
         g_gps->ground_course, // 1/100 degrees,
         g_gps->num_sats);
+#endif
 }
 
 static void NOINLINE send_servo_out(mavlink_channel_t chan)
@@ -323,7 +331,7 @@ static void NOINLINE send_servo_out(mavlink_channel_t chan)
         10000 * g.channel_pitch.norm_output(),
         10000 * g.channel_throttle.norm_output(),
         10000 * g.channel_rudder.norm_output(),
-	receiver_rssi);
+        receiver_rssi);
 #else
     mavlink_msg_rc_channels_scaled_send(
         chan,

@@ -31,11 +31,12 @@
 //
 // see the full video of the AUTO-LANDING and AUTO-TAKEOFF test on X-Plane v9.70 in HIL mode at: http://vimeo.com/77580524
 // ------------------------------------------------------
-// Jean-Louis Naudin (JLN) updates: Last update : November 6, 2013
+// Jean-Louis Naudin (JLN) updates: Last update : November 7, 2013
 //
 // DOLIST:
 //
 //-------------------------------------------------------------------------------------------------------------------------
+// 2013-11-07: Mavlink (send_gps_raw) update about the hdop and the numsat value used during X-Plane HIL mode simulation
 // 2013-10-22: Updated for Xplane v9.70 - tested and update for auto-takeoff and auto-landing
 // 2013-06-30: Threshold low altitude with throttle management updated
 // 2012-06-14: Tested in flight on MAJA drone
