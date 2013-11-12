@@ -36,6 +36,7 @@
 // DOLIST:
 //
 //-------------------------------------------------------------------------------------------------------------------------
+// 2013-11-12: Update the restart FPL when AUTO is set 
 // 2013-11-12: Update the CH7 switch reading for the Cleanup FPL, save WP and auto RTL 
 // 2013-11-11: Tested in flight on the Calmato 40 Alpha with an ArduFlyer v2.5.2 board
 // 2013-11-07: Mavlink (send_gps_raw) update about the hdop and the numsat value used during X-Plane HIL mode simulation
