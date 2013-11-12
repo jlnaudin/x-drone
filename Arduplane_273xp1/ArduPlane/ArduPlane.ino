@@ -31,11 +31,12 @@
 //
 // see the full video of the AUTO-LANDING and AUTO-TAKEOFF test on X-Plane v9.70 in HIL mode at: http://vimeo.com/77580524
 // ------------------------------------------------------
-// Jean-Louis Naudin (JLN) updates: Last update : November 11, 2013
+// Jean-Louis Naudin (JLN) updates: Last update : November 12, 2013
 //
 // DOLIST:
 //
 //-------------------------------------------------------------------------------------------------------------------------
+// 2013-11-12: Update the CH7 switch reading for the Cleanup FPL, save WP and auto RTL 
 // 2013-11-11: Tested in flight on the Calmato 40 Alpha with an ArduFlyer v2.5.2 board
 // 2013-11-07: Mavlink (send_gps_raw) update about the hdop and the numsat value used during X-Plane HIL mode simulation
 // 2013-10-22: Updated for Xplane v9.70 - tested and update for auto-takeoff and auto-landing
@@ -935,6 +936,8 @@ static void medium_loop()
         if (g.battery_monitoring != 0) {
             read_battery();
         }
+
+        read_trim_switch(); // JLN Save current position as WP in the FPL and clear FPL
 
         slow_loop();
 
