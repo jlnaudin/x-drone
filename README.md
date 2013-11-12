@@ -21,6 +21,7 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_real_mode3.jpg "The real Calmato tested in flight")
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_real_mode4.jpg "The real Calmato tested in flight")
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_real_mode5.jpg "The real Calmato tested in flight")
-
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/True_Nav.jpg "Real test flight")
+![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/ArduFlyerSetup.jpg "ArduFlyer v2.5.2 AP setup")
 More infos at: http://diydrones.com/profile/JeanLouisNaudin
+Flights videos at: http://vimeo.com/user5037815/videos
