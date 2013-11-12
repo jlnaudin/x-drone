@@ -1,8 +1,8 @@
 x-Drone 
 =======
 Experimental researches and developpement of autopilots for aerial plateforms on Arduino boards:
-* ArduPilot Mega (APM v1.5, APM v2.x) 
-* ArduFlyer v2.5.x
+* ArduPilot Mega (APM v1.5, APM v2.x) from 3D Robotics
+* ArduFlyer v2.5.x from RC Timer
 
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_hil_mode2.jpg "The Calmato for X-Plane")
 
