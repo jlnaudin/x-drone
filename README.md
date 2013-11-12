@@ -1,6 +1,6 @@
 x-Drone 
 =======
-Experimental researches and developpement of autopilots for aerial plateforms on Arduino boards
+Experimental researches and developpement of autopilots for aerial plateforms on Arduino boards (ArduPilot Mega, ArduFlyer)
 
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_hil_mode2.jpg "The Calmato for X-Plane")
 
