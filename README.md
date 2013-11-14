@@ -12,6 +12,13 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 * Arduino Auto-Pilot and full IMU 3D stabilizer (9DOF, GPS, 3D magnetometer, airspeed sensor...)
 * Ground Station (the Mission Planner from Michael Oborne) with full Mavlink telemetry
 * Enhanced version of the ArduPlane v2.73 firmware (called Arduplane_273-xp1)
+* - Automatic recording of WP in flight with the CH7 switch in STABILIZE mode (CH7_OPTION	= CH7_SAVE_WP)
+* - Erasing and the FPL option with the CH7 switch in MANUAL mode
+* - RTL can be activated in flight with the CH7 switch in AUTO mode
+* - Auto-Take off and Auto-Landing improved and tested in HIL mode on X-Plane v9.70
+* - Adaptative Bank Turn option if AUTO_WP_RADIUS is ENABLED
+* - Closed loop FPL option, when the CLOSED_LOOP_NAV is ENABLED
+* - fully compatible and tested with X-Plane v9.70 in HIL (Hardware In the Loop) mode
 * HIL mode test flights on X-Plane with the virtual model
 * Real mode test flights on the real model
 
