@@ -19,8 +19,8 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 * - Adaptative Bank Turn option if AUTO_WP_RADIUS is ENABLED
 * - Closed loop FPL option, when the CLOSED_LOOP_NAV is ENABLED
 * - fully compatible and tested with X-Plane v9.70 in HIL (Hardware In the Loop) mode
-* HIL mode test flights on X-Plane with the virtual model
-* Real mode test flights on the real model
+* HIL mode test flights on X-Plane with the the Calmato Alpha virtual model
+* Real test flights with a true Calmato Alpha 40 (Kyosho) electric powered RC plane
 
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_hil_mode1.jpg "The Calmato for X-Plane")
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_real_mode3.jpg "The real Calmato tested in flight")
