@@ -304,11 +304,19 @@ static void NOINLINE send_gps_raw(mavlink_channel_t chan)
         g_gps->latitude,      // in 1E7 degrees
         g_gps->longitude,     // in 1E7 degrees
         g_gps->altitude_cm * 10, // in mm
+#if X_PLANE == ENABLED        // JLN - to avoid BAD_GPS msg on the Mission Planner HUD
+        120,  // gps hdop = 1.2 m
+        65535,
+        g_gps->ground_speed_cm,  // cm/s
+        g_gps->ground_course_cd, // 1/100 degrees,
+        12);  // 12 sats in view          
+#else        
         g_gps->hdop,
         65535,
         g_gps->ground_speed_cm,  // cm/s
         g_gps->ground_course_cd, // 1/100 degrees,
         g_gps->num_sats);
+#endif        
 }
 
 static void NOINLINE send_system_time(mavlink_channel_t chan)
@@ -325,6 +333,25 @@ static void NOINLINE send_servo_out(mavlink_channel_t chan)
     // normalized values scaled to -10000 to 10000
     // This is used for HIL.  Do not change without discussing with
     // HIL maintainers
+ #if X_PLANE == ENABLED
+    /* update by for X-Plane or AeroSIM HIL */
+    
+    int thr_out = constrain_int32((channel_throttle->servo_out *2) - 100, -100, 100);  // throttle set from -100 to 100
+    
+    mavlink_msg_rc_channels_scaled_send(
+	chan,
+        millis(),
+        0, // port 0
+	channel_roll->servo_out,
+	channel_pitch->servo_out,
+        int((10000 * (channel_throttle->norm_output() + 1))/2),
+	channel_rudder->servo_out,
+        10000 * channel_roll->norm_output(),
+        10000 * channel_pitch->norm_output(),
+        10000 * channel_throttle->norm_output(),
+        10000 * channel_rudder->norm_output(),
+        receiver_rssi);
+#else    
     mavlink_msg_rc_channels_scaled_send(
         chan,
         millis(),
@@ -338,6 +365,7 @@ static void NOINLINE send_servo_out(mavlink_channel_t chan)
         0,
         0,
         receiver_rssi);
+#endif        
 }
 #endif
 

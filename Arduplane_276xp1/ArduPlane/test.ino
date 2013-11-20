@@ -354,8 +354,10 @@ test_modeswitch(uint8_t argc, const Menu::arg *argv)
  */
 static int8_t
 test_logging(uint8_t argc, const Menu::arg *argv)
-{
+{  
+#if LOGGING_ENABLED == ENABLED
     DataFlash.ShowDeviceInfo(cliSerial);
+#endif    
     return 0;
 }
 

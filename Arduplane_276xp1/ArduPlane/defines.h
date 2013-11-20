@@ -110,6 +110,10 @@ enum ChannelMixing {
 #define RELAY_TOGGLE 5
 #define STOP_REPEAT 10
 
+// JLN - CH 7 control
+#define CH7_DO_NOTHING 0
+#define CH7_SAVE_WP 1
+
 //  GCS Message ID's
 /// NOTE: to ensure we never block on sending MAVLink messages
 /// please keep each MSG_ to a single MAVLink message. If need be

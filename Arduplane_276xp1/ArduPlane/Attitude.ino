@@ -323,6 +323,7 @@ static void stabilize()
     } else if (control_mode == ACRO) {
         stabilize_acro(speed_scaler);
     } else {
+      
         if (g.stick_mixing == STICK_MIXING_FBW && control_mode != STABILIZE) {
             stabilize_stick_mixing_fbw();
         }
@@ -331,7 +332,10 @@ static void stabilize()
         if (g.stick_mixing == STICK_MIXING_DIRECT || control_mode == STABILIZE) {
             stabilize_stick_mixing_direct();
         }
-        stabilize_yaw(speed_scaler);
+        if(takeoff_complete)        // JLN Update
+            stabilize_yaw(speed_scaler);
+        else 
+            stabilize_yaw(speed_scaler*2);
     }
 
     /*

@@ -285,3 +285,10 @@ static int32_t relative_altitude_abs_cm(void)
     return labs(current_loc.alt - home.alt);
 }
 
+static void calc_turn_radius()    // JLN update - adjut automaticaly the wp_radius Vs the speed and the turn angle
+{
+  wp_radius = g_gps->ground_speed_cm * 150 / g.roll_limit_cd.get();
+  //Serial.println(wp_radius, DEC);
+}
+
+

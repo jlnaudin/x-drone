@@ -306,7 +306,8 @@ static void set_mode(enum FlightMode mode)
 
     case AUTO:
         prev_WP = current_loc;
-        update_auto();
+        //update_auto();
+        change_command(1); // restart to the 1st stored wp - JLN Update        
         break;
 
     case RTL:

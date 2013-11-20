@@ -206,6 +206,10 @@
  # define CH8_MAX        2000
 #endif
 
+// JLN Update
+#ifndef CH7_OPTION      
+# define CH7_OPTION	    CH7_DO_NOTHING 
+#endif
 
 #ifndef FLAP_1_PERCENT
  # define FLAP_1_PERCENT 0
@@ -357,6 +361,23 @@
  # define ALTITUDE_MIX                   1
 #endif
 
+// JLN UPdate for v2.76-xp1
+
+#ifndef AGL_REF
+# define AGL_REF		0
+#endif
+
+#ifndef MSL_REF
+# define MSL_REF		DISABLED
+#endif
+
+#ifndef CLOSED_LOOP_NAV
+# define CLOSED_LOOP_NAV     ENABLED
+#endif
+
+#ifndef AUTO_WP_RADIUS
+# define AUTO_WP_RADIUS      ENABLED
+#endif
 
 //////////////////////////////////////////////////////////////////////////////
 // AIRSPEED_CRUISE

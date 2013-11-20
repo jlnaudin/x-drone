@@ -68,9 +68,69 @@ static uint8_t readSwitch(void){
     return 0;
 }
 
-static void reset_control_switch()
+static void reset_control_switch()    
 {
     oldSwitchPosition = 0;
     read_control_switch();
 }
 
+
+// JLN UPDATE
+#define CH_7_PWM_TRIGGER 1800
+
+// read at 10 hz
+// set this to your trainer switch
+static void read_trim_switch()   // JLN
+{
+if (g.ch7_option == CH7_SAVE_WP){         // set to 1
+		if (g.rc_7.radio_in > CH_7_PWM_TRIGGER){ // switch is engaged
+			trim_flag = true;
+
+		}else{ // switch is disengaged
+			if(trim_flag){
+				trim_flag = false;
+
+				if(control_mode == MANUAL){          // if SW7 is ON in MANUAL = Erase the Flight Plan
+					cleanup_fpl();                   
+					return;
+				} else if (control_mode == STABILIZE) {    // if SW7 is ON in STABILIZE = record the Wp                                 
+        			        store_newwp();
+                                } else if (control_mode == AUTO) {    // if SW7 is ON in AUTO = set to RTL  
+                                    set_mode(RTL);
+                                }
+                             }
+			}
+		} 
+}
+
+static void cleanup_fpl()   // JLN ThermoPilot
+{					// reset the mission
+					CH7_wp_index = 0;
+					g.command_total.set_and_save(CH7_wp_index);
+                                        g.command_total = 0;
+                                        g.command_index =0;
+                                        nav_command_index = 0;
+                                        if(channel_roll->control_in > 3000) // if roll is full right store the current location as home
+                                            ground_start_count = 5;                                        
+                                        CH7_wp_index = 1;        
+}
+
+static void store_newwp() // JLN ThermoPilot
+{        			   // set the next_WP (home is stored at 0)
+        			   // max out at 100 since I think we need to stay under the EEPROM limit
+        			   CH7_wp_index = constrain_int16(CH7_wp_index, 1, 100);
+        
+    				  current_loc.id = MAV_CMD_NAV_WAYPOINT;  
+    
+                                  // store the index
+                                  g.command_total.set_and_save(CH7_wp_index);
+                                  g.command_total = CH7_wp_index;
+                                  g.command_index = CH7_wp_index;
+                                  nav_command_index = 0;
+                                  
+        			  // save command
+        			  set_cmd_with_index(current_loc, CH7_wp_index);
+
+                                    // increment index
+    				   CH7_wp_index++; 
+}

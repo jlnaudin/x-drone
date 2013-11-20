@@ -13,6 +13,9 @@
 
 //#define HIL_MODE            HIL_MODE_DISABLED
 
+//#include "APM_Config_Calmato.h"  // The setup used for the Calmato
+#include "APM_Config_HIL.h"  // for X-Plane v9.70 simulator tested in HIL mode, comment this line for a true flight
+
 /*
  *  // HIL_MODE SELECTION
  *  //

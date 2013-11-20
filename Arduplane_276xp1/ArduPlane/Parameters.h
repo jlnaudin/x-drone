@@ -153,7 +153,11 @@ public:
         k_param_min_gndspeed_cm,
         k_param_crosstrack_use_wind, // unused
 
-
+        // JLN Update
+        k_param_agl_ref,
+        k_param_msl_ref,
+        k_param_closed_loop_nav, 
+        k_param_auto_wp_radius,
         //
         // Camera and mount parameters
         //
@@ -221,7 +225,8 @@ public:
         k_param_flight_mode4,
         k_param_flight_mode5,
         k_param_flight_mode6,
-
+        k_param_ch7_option,        // JLN Update
+        
         //
         // 220: Waypoint data
         //
@@ -350,7 +355,8 @@ public:
     AP_Int8 flight_mode4;
     AP_Int8 flight_mode5;
     AP_Int8 flight_mode6;
-
+    AP_Int8 ch7_option;      // JLN Update
+    
     // Navigational maneuvering limits
     //
     AP_Int16 roll_limit_cd;
@@ -358,6 +364,12 @@ public:
     AP_Int16 acro_roll_rate;
     AP_Int16 acro_pitch_rate;
     AP_Int8  acro_locking;
+    
+        // JLN Update
+    AP_Int8	msl_ref;   
+    AP_Int16    agl_ref;
+    AP_Int8     closed_loop_nav;
+    AP_Int8     auto_wp_radius;
 
     // Misc
     //

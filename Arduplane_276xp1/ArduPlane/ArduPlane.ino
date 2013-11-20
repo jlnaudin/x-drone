@@ -1,6 +1,14 @@
 /// -*- tab-width: 4; Mode: C++; c-basic-offset: 4; indent-tabs-mode: nil -*-
 
-#define THISFIRMWARE "ArduPlane V2.76"
+#define THISFIRMWARE "ArduPlane V2.76-xp1 updated by JLN"
+//
+// This firmware is fully based on the Arduplane v2.76, this is an improved version with personnal updates done by Jean-Louis Naudin
+// this firmware has been tested only in HIL mode on X-Plane v9.70 on ArduPilot Mega (APM) v1.5, v2, v2.5 and ArduFlyer v2.5.2
+
+// WARNING - WARNING - DON'T USE THIS VERSION FOR REAL FLIGHT !!!! - WARNING - WARNING -
+// THIS VERSION IS USED ONLY FOR TESTING PURPOSE IN HIL MODE ON X-PLANE v9.70
+
+// More infos at: http://diydrones.com/profile/JeanLouisNaudin 
 /*
    Lead developer: Andrew Tridgell
  
@@ -22,6 +30,33 @@
    You should have received a copy of the GNU General Public License
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+ 
+// =======================================================================================================
+// THIS IS AN EXPERIMENTAL VERSION UNDER TEST FROM THE LATEST RELEASED VERSION OF THE ARDUPLANE FIRMWARE
+// **** WARNING THIS IS AN EXPERIMENTAL VERSION FOR ALPHA VERSION TESTERS AND EXPERIENCED PILOTS ONLY ****
+// DISCLAIMER:
+// If you decide to test it on a real model this is at your own risk and I assume no responsability...
+//
+// ------------------------------------------------------
+// Jean-Louis Naudin (JLN) updates: Last update : November 20, 2013
+//
+// DOLIST:
+//
+//-------------------------------------------------------------------------------------------------------------------------
+// 2013-11-12: Porting of Arduplane v273-xp1 JLN features to the ArduPlane v2.76-xp1
+// 2013-11-12: Update the restart FPL when AUTO is set 
+// 2013-11-12: Update the CH7 switch reading for the Cleanup FPL, save WP and auto RTL 
+// 2013-11-11: Tested in flight on the Calmato 40 Alpha with an ArduFlyer v2.5.2 board
+// 2013-11-07: Mavlink (send_gps_raw) update about the hdop and the numsat value used during X-Plane HIL mode simulation
+// 2013-10-22: Updated for Xplane v9.70 - tested and update for auto-takeoff and auto-landing
+// 2013-06-30: Threshold low altitude with throttle management updated
+// 2012-06-14: Tested in flight on MAJA drone
+// 2012-04-08: Add MSL_REF for real altitude (msl) in AUTO navigation (TP_MSL_REF = 1 if enabled)
+// 2012-04-08: If CH7_SAVE_WP = ON and AUTO then RTL
+// 2012-04-04: Implementing Self-Learning Flight Plan - WP are saved with SW on Ch7 - MANUAL mode = Reset, STABILIZE mode = Save Wp (=1)
+// 2012-04-02: Added a new params: TP_AGL_REF (ground altitude in meters MSL)
+// 2012-02-02: Auto calculation of the wp_radius Vs the ground_speed and the max turn angle in AUTO mode so as to get the best turning point at the Wp (AUTO_WP_RADIUS ENABLED)
+// 2012-02-02: add the CLOSED_LOOP_NAV ENABLED switch to allow redoing the flight plan after the end of the exec: set #define CLOSED_LOOP_NAV  ENABLED
 
 ////////////////////////////////////////////////////////////////////////////////
 // Header includes
@@ -316,6 +351,18 @@ static AP_Relay relay;
 #if CAMERA == ENABLED
 static AP_Camera camera(&relay);
 #endif
+
+////////////////////////////////////////////////////////////////////////////////
+// CH7 control    - JLN Update
+////////////////////////////////////////////////////////////////////////////////
+
+// Used to track the CH7 toggle state.
+// When CH7 goes LOW PWM from HIGH PWM, this value will have been set true
+// This allows advanced functionality to know when to execute
+static bool trim_flag;
+// This register tracks the current Mission Command index when writing
+// a mission using CH7 in flight
+static int8_t CH7_wp_index = 0;
 
 ////////////////////////////////////////////////////////////////////////////////
 // Global variables
@@ -640,6 +687,7 @@ static struct   Location guided_WP;
 static struct   Location next_nav_command;
 // The location structure information from the Non-Nav command being processed
 static struct   Location next_nonnav_command;
+static long    wp_radius; // JLN Update
 
 ////////////////////////////////////////////////////////////////////////////////
 // Altitude / Climb rate control
@@ -725,6 +773,7 @@ static const AP_Scheduler::Task scheduler_tasks[] PROGMEM = {
     { update_events,		 15,   1500 }, // 20
     { check_usb_mux,          5,    300 },
     { read_battery,           5,   1000 },
+    { read_trim_switch,       5,   1000 },
     { compass_accumulate,     1,   1500 },
     { barometer_accumulate,   1,    900 },
     { update_notify,          1,    300 },

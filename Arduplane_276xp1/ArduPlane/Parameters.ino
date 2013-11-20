@@ -483,6 +483,12 @@ const AP_Param::Info var_info[] PROGMEM = {
     // @User: Standard
     GSCALAR(flight_mode6,           "FLTMODE6",       FLIGHT_MODE_6),
 
+    // @Param: CH7_OPTION
+    // @DisplayName: Ch7_Option
+    // @Description: Set the option switch 7 to cleanup FPL or save WP
+    // @User: Standard
+    GSCALAR(ch7_option,              "CH7_OPTION",      CH7_OPTION),    // JLN
+    
     // @Param: LIM_ROLL_CD
     // @DisplayName: Maximum Bank Angle
     // @Description: The maximum commanded bank angle in either direction
@@ -886,6 +892,13 @@ const AP_Param::Info var_info[] PROGMEM = {
     // @Group: BATT_
     // @Path: ../libraries/AP_BattMonitor/AP_BattMonitor.cpp
     GOBJECT(battery,                "BATT_",       AP_BattMonitor),
+    
+        // JLN Update for v2.76-xp1
+    
+    GSCALAR(closed_loop_nav,        "TP_CL_NAV", CLOSED_LOOP_NAV),
+    GSCALAR(auto_wp_radius,         "TP_AWPR_NAV", AUTO_WP_RADIUS),
+    GSCALAR(agl_ref,                "TP_AGL_REF", AGL_REF),
+    GSCALAR(msl_ref,                "TP_MSL_REF", MSL_REF),   
 
 #if CONFIG_HAL_BOARD == HAL_BOARD_AVR_SITL
     // @Group: SIM_
