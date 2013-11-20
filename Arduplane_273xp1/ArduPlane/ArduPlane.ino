@@ -3,7 +3,7 @@
 #define THISFIRMWARE "ArduPlane V2.73-xp1 updated by JLN"
 //
 // This firmware is fully based on the Arduplane v2.73, this is an improved version with personnal updates done by Jean-Louis Naudin
-// this firmware have been tested in fligh and in HIL mode on X-Plane v9.70 on ArduPilot Mega (APM) v1.5, v2, v2.5 and ArduFlyer v2.5.2
+// this firmware has been tested in flight and in HIL mode on X-Plane v9.70 on ArduPilot Mega (APM) v1.5, v2, v2.5 and ArduFlyer v2.5.2
 // More infos at: http://diydrones.com/profile/JeanLouisNaudin 
 /*
  *  Lead developer: Andrew Tridgell
@@ -597,7 +597,7 @@ static struct   Location guided_WP;
 static struct   Location next_nav_command;
 // The location structure information from the Non-Nav command being processed
 static struct   Location next_nonnav_command;
-static long    wp_radius;
+static long    wp_radius; // JLN Update
 
 ////////////////////////////////////////////////////////////////////////////////
 // Altitude / Climb rate control
@@ -609,7 +609,7 @@ static int32_t offset_altitude_cm;
 static int32_t          gps_base_alt;
 
 ////////////////////////////////////////////////////////////////////////////////
-// CH7 control
+// CH7 control    - JLN Update
 ////////////////////////////////////////////////////////////////////////////////
 
 // Used to track the CH7 toggle state.

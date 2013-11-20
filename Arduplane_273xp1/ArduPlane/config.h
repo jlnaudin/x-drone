@@ -338,7 +338,8 @@
  # define FLIGHT_MODE_6                  MANUAL
 #endif
 
-#ifndef CH7_OPTION
+// JLN Update
+#ifndef CH7_OPTION      
 # define CH7_OPTION	    CH7_DO_NOTHING 
 #endif
 

@@ -139,6 +139,8 @@ public:
         k_param_inverted_flight_ch,
         k_param_min_gndspeed_cm,
         k_param_crosstrack_use_wind, // unused
+        
+        // JLN Update
         k_param_agl_ref,
         k_param_msl_ref,
         k_param_closed_loop_nav, 
@@ -329,6 +331,8 @@ public:
     AP_Int16 pitch_limit_max_cd;
     AP_Int16 pitch_limit_min_cd;
     AP_Int16 alt_offset;
+    
+    // JLN Update
     AP_Int8	msl_ref;   
     AP_Int16    agl_ref;
     AP_Int8     closed_loop_nav;
