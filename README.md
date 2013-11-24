@@ -3,6 +3,10 @@ x-Drone
 Experimental researches and developpement of autopilots for aerial plateforms on Arduino boards:
 * ArduPilot Mega (APM v1.5, APM v2.x) from 3D Robotics
 * ArduFlyer v2.5.x from RC Timer
+
+FULL TUTORIAL for testing yourself the HIL simulation on X-Plane v9.70 at:
+https://github.com/jlnaudin/x-drone/wiki/X-PLANE-TUTORIAL:-X-Plane-v9.70-with-ArduPlane-v2.73-xp1-in-HIL-mode-simulation
+
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoFlight.jpg) (http://player.vimeo.com/video/79610014)
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoDroneFlight.jpg) (http://player.vimeo.com/video/79410452)
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/APN273xp1FullTest.jpg) (http://player.vimeo.com/video/80052308)
