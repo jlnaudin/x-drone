@@ -8,6 +8,10 @@ FULL TUTORIAL for testing yourself the HIL simulation on X-Plane v9.70 at:
 
 https://github.com/jlnaudin/x-drone/wiki/X-PLANE-TUTORIAL:-X-Plane-v9.70-with-ArduPlane-v2.73-xp1-in-HIL-mode-simulation
 
+FULL INSTALLATION details of the Real Calmato Alpha 40 EP at:
+
+https://github.com/jlnaudin/x-drone/wiki/The-Calmato-Alpha-40-EP-setup-with-the-APM-ArduFlyer-IMU-board
+
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoFlight.jpg) (http://player.vimeo.com/video/79610014)
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoDroneFlight.jpg) (http://player.vimeo.com/video/79410452)
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/APN273xp1FullTest.jpg) (http://player.vimeo.com/video/80052308)
