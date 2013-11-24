@@ -5,12 +5,13 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 * ArduFlyer v2.5.x from RC Timer
 
 FULL TUTORIAL for testing yourself the HIL simulation on X-Plane v9.70 at:
-
-https://github.com/jlnaudin/x-drone/wiki/X-PLANE-TUTORIAL:-X-Plane-v9.70-with-ArduPlane-v2.73-xp1-in-HIL-mode-simulation
+* https://github.com/jlnaudin/x-drone/wiki/X-PLANE-TUTORIAL:-X-Plane-v9.70-with-ArduPlane-v2.73-xp1-in-HIL-mode-simulation
 
 FULL INSTALLATION details of the Real Calmato Alpha 40 EP at:
+* https://github.com/jlnaudin/x-drone/wiki/The-Calmato-Alpha-40-EP-setup-with-the-APM-ArduFlyer-IMU-board
 
-https://github.com/jlnaudin/x-drone/wiki/The-Calmato-Alpha-40-EP-setup-with-the-APM-ArduFlyer-IMU-board
+Programming the GPS Crius CN06-V2 (Ublox NEO-6M):
+* https://github.com/jlnaudin/x-drone/wiki/How-to-setup-the-GPS-Ublox-NEO-6M-(Crius)-CN-06-V2
 
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoFlight.jpg) (http://player.vimeo.com/video/79610014)
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoDroneFlight.jpg) (http://player.vimeo.com/video/79410452)
