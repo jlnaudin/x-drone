@@ -10,6 +10,9 @@ FULL TUTORIAL for testing yourself the HIL simulation on X-Plane v9.70 at:
 FULL INSTALLATION details of the Real Calmato Alpha 40 EP at:
 * https://github.com/jlnaudin/x-drone/wiki/The-Calmato-Alpha-40-EP-setup-with-the-APM-ArduFlyer-IMU-board
 
+PROGRAMMING of the Turnigy 9XR transmitter for the Calmato Alpha 40 EP at:
+* https://github.com/jlnaudin/x-drone/wiki/The-programming-of-the-Turnigy-9XR-for-the-Calmato-Alpha-40-EP
+
 Programming the GPS Crius CN06-V2 (Ublox NEO-6M):
 * https://github.com/jlnaudin/x-drone/wiki/How-to-setup-the-GPS-Ublox-NEO-6M-(Crius)-CN-06-V2
 
