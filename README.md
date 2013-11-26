@@ -41,7 +41,10 @@ Programming the GPS Crius CN06-V2 (Ublox NEO-6M):
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_real_mode3.jpg "The real Calmato tested in flight")
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_real_mode4.jpg "The real Calmato tested in flight")
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_real_mode5.jpg "The real Calmato tested in flight")
-![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/True_Nav.jpg "Real test flight")
+**The FPL recorded in flight during the mission 16**
+![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoMission16FPL.jpg "The FPL recorded in flight during the mission 16")
+**The flight log of the mission 16**
+![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoMission16.jpg "The flight log of the mission 16")
 ![alt text](https://raw.github.com/jlnaudin/x-drone/e70b80f9e0fd244902bcd2584a326f90f9756420/images/ArduFlyerSetup.jpg "ArduFlyer v2.5.2 AP setup")
 More infos at: http://diydrones.com/profile/JeanLouisNaudin
 
