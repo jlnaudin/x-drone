@@ -16,6 +16,8 @@ PROGRAMMING of the Turnigy 9XR transmitter for the Calmato Alpha 40 EP at:
 Programming the GPS Crius CN06-V2 (Ublox NEO-6M):
 * https://github.com/jlnaudin/x-drone/wiki/How-to-setup-the-GPS-Ublox-NEO-6M-(Crius)-CN-06-V2
 
+![alt text](https://raw.github.com/jlnaudin/x-drone/master/mission_logs/CalmatoMission16vid.jpg "Mission 16 video")
+(http://player.vimeo.com/video/80450544)
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoFlight.jpg) (http://player.vimeo.com/video/79610014)
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoDroneFlight.jpg) (http://player.vimeo.com/video/79410452)
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/APN273xp1FullTest.jpg) (http://player.vimeo.com/video/80052308)
