@@ -4,20 +4,14 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 * ArduPilot Mega (APM v1.5, APM v2.x) from 3D Robotics
 * ArduFlyer v2.5.x from RC Timer
 
-FULL TUTORIAL for testing yourself the HIL simulation on X-Plane v9.70 at:
-* https://github.com/jlnaudin/x-drone/wiki/X-PLANE-TUTORIAL:-X-Plane-v9.70-with-ArduPlane-v2.73-xp1-in-HIL-mode-simulation
+**FULL TUTORIALS** about the ArduPlane v2.73-xp1 installation,tuning parameters and HIL simulations at:
+* https://github.com/jlnaudin/x-drone/wiki
 
-FULL INSTALLATION details of the Real Calmato Alpha 40 EP at:
-* https://github.com/jlnaudin/x-drone/wiki/The-Calmato-Alpha-40-EP-setup-with-the-APM-ArduFlyer-IMU-board
+**FULL VIDEOS** about the ArduPlane v2.73-xp1 testing and real flights missions at:
+* https://github.com/jlnaudin/x-drone/wiki/Videos-of-the-Calmato-missions-piloted-with-ArduPlane
 
-PROGRAMMING of the Turnigy 9XR transmitter for the Calmato Alpha 40 EP at:
-* https://github.com/jlnaudin/x-drone/wiki/The-programming-of-the-Turnigy-9XR-for-the-Calmato-Alpha-40-EP
-
-Programming the GPS Crius CN06-V2 (Ublox NEO-6M):
-* https://github.com/jlnaudin/x-drone/wiki/How-to-setup-the-GPS-Ublox-NEO-6M-(Crius)-CN-06-V2
-
-![alt text](https://raw.github.com/jlnaudin/x-drone/master/mission_logs/CalmatoMission16vid.jpg "Mission 16 video")
-(http://player.vimeo.com/video/80450544)
+![alt text](https://raw.github.com/jlnaudin/x-drone/master/mission_logs/Calmato_Mission18.jpg "Mission 18 video")
+(http://player.vimeo.com/video/80605879)
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoFlight.jpg) (http://player.vimeo.com/video/79610014)
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoDroneFlight.jpg) (http://player.vimeo.com/video/79410452)
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/APN273xp1FullTest.jpg) (http://player.vimeo.com/video/80052308)
