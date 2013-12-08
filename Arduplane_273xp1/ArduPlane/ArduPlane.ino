@@ -31,11 +31,12 @@
 //
 // see the full video of the AUTO-LANDING and AUTO-TAKEOFF test on X-Plane v9.70 in HIL mode at: http://vimeo.com/77580524
 // ------------------------------------------------------
-// Jean-Louis Naudin (JLN) updates: Last update : November 12, 2013
+// Jean-Louis Naudin (JLN) updates: Last update : December 08, 2013
 //
 // DOLIST:
 //
 //-------------------------------------------------------------------------------------------------------------------------
+// 2013-12-08: Update closed loop nav altitude set between the last and the first WP to avoid pull up throttle effect. 
 // 2013-11-12: Update the restart FPL when AUTO is set 
 // 2013-11-12: Update the CH7 switch reading for the Cleanup FPL, save WP and auto RTL 
 // 2013-11-11: Tested in flight on the Calmato 40 Alpha with an ArduFlyer v2.5.2 board
