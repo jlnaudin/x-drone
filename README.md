@@ -10,10 +10,10 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 **FULL VIDEOS** about the ArduPlane v2.73-xp1 testing and real flights missions at:
 * https://github.com/jlnaudin/x-drone/wiki/Videos-of-the-Calmato-missions-piloted-with-ArduPlane
 
+![alt text](https://raw.github.com/jlnaudin/x-drone/master/MaxiSwift/MaxiSwiftMission8tittle.jpg) (http://player.vimeo.com/video/81333614)
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/mission_logs/Calmato_Mission18.jpg "Mission 18 video")
 (http://player.vimeo.com/video/80605879)
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoFlight.jpg) (http://player.vimeo.com/video/79610014)
-![alt text](https://raw.github.com/jlnaudin/x-drone/master/MaxiSwift/MaxiSwiftMission8tittle.jpg) (http://player.vimeo.com/video/81333614)
 
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/APN273xp1FullTest.jpg) (http://player.vimeo.com/video/80052308)
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_hil_mode2.jpg "The Calmato for X-Plane")
