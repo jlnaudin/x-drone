@@ -5,17 +5,22 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 * ArduFlyer v2.5.x from RC Timer
 
 **FULL TUTORIALS** about the ArduPlane v2.73-xp1 installation,tuning parameters and HIL simulations at:
-* https://github.com/jlnaudin/x-drone/wiki
+
+https://github.com/jlnaudin/x-drone/wiki
 
 **FULL VIDEOS** about the ArduPlane v2.73-xp1 testing and real flights missions at:
-* https://github.com/jlnaudin/x-drone/wiki/Videos-of-the-Calmato-missions-piloted-with-ArduPlane
+
+https://github.com/jlnaudin/x-drone/wiki/Videos-of-the-Calmato-missions-piloted-with-ArduPlane
 
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/MaxiSwift/MaxiSwiftMission8tittle.jpg) (http://player.vimeo.com/video/81333614)
 
-* **MaxiSwift flying wing wiki:** https://github.com/jlnaudin/x-drone/wiki/x-drone:-MaxiSwift,-mission-8---Low-altitude-profile-mission
+* **MaxiSwift flying wing wiki:** 
 
-* **MaxiSwift for X-plane v9.70**
-* https://github.com/jlnaudin/x-drone/wiki/X-PLANE-TUTORIAL:-MaxiSwift-installation-with-X-Plane-v9.70-for-HIL-simulations
+https://github.com/jlnaudin/x-drone/wiki/x-drone:-MaxiSwift,-mission-8---Low-altitude-profile-mission
+
+* **MaxiSwift for X-plane v9.70 and HIL simulations with the APM**
+
+https://github.com/jlnaudin/x-drone/wiki/X-PLANE-TUTORIAL:-MaxiSwift-installation-with-X-Plane-v9.70-for-HIL-simulations
 
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/mission_logs/Calmato_Mission18.jpg "Mission 18 video")
 (http://player.vimeo.com/video/80605879)
