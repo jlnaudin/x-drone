@@ -38,12 +38,13 @@
 // If you decide to test it on a real model this is at your own risk and I assume no responsability...
 //
 // ------------------------------------------------------
-// Jean-Louis Naudin (JLN) updates: Last update : November 20, 2013
+// Jean-Louis Naudin (JLN) updates: Last update : December 08, 2013
 //
 // DOLIST:
 //
 //-------------------------------------------------------------------------------------------------------------------------
-// 2013-11-12: Porting of Arduplane v273-xp1 JLN features to the ArduPlane v2.76-xp1
+// 2013-12-08: Update closed loop nav altitude set between the last and the first WP to avoid pull up throttle effect. 
+// 2013-11-20: Porting of Arduplane v273-xp1 JLN features to the ArduPlane v2.76-xp1
 // 2013-11-12: Update the restart FPL when AUTO is set 
 // 2013-11-12: Update the CH7 switch reading for the Cleanup FPL, save WP and auto RTL 
 // 2013-11-11: Tested in flight on the Calmato 40 Alpha with an ArduFlyer v2.5.2 board
@@ -770,7 +771,7 @@ static const AP_Scheduler::Task scheduler_tasks[] PROGMEM = {
     { gcs_update,             1,   1700 },
     { gcs_data_stream_send,   1,   3000 },
     { update_mount,           1,   1500 },
-    { update_events,		 15,   1500 }, // 20
+    { update_events,          15,   1500 }, // 20
     { check_usb_mux,          5,    300 },
     { read_battery,           5,   1000 },
     { read_trim_switch,       5,   1000 },

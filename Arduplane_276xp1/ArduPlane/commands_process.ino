@@ -83,15 +83,14 @@ static void process_next_command()
         gcs_send_text_fmt(PSTR("Nav command index updated to #%i"),nav_command_index);
 
         if(nav_command_index > g.command_total) {
-            // we are out of commands!
-            gcs_send_text_P(SEVERITY_LOW,PSTR("out of commands!"));
-            handle_no_commands();
             
             if (g.closed_loop_nav)  {    // JLN Update - replay the FPL (CLOSED_LOOP_NAV)
                        change_command(1);
                        return;
                     } else {
-		     handle_no_commands();
+            // we are out of commands!
+            gcs_send_text_P(SEVERITY_LOW,PSTR("out of commands!"));
+            handle_no_commands();
                     }
             
         } else {

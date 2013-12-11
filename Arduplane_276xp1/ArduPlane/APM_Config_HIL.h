@@ -9,15 +9,11 @@
 
 #define TRACE    DISABLED
 
-//#define HIL_PROTOCOL        HIL_PROTOCOL_XPLANE
-
-//#define GCS_PROTOCOL        GCS_PROTOCOL_MAVLINK
 #define GCS_PROTOCOL        GCS_PROTOCOL_NONE
 #define GCS_PORT            3
 
 #define HIL_PROTOCOL        HIL_PROTOCOL_MAVLINK
 
-//#define HIL_MODE            HIL_MODE_DISABLED
 #define HIL_MODE            HIL_MODE_ATTITUDE
 #define HIL_PORT            0
 
@@ -28,11 +24,9 @@
 #define LOGGING_ENABLED	    DISABLED
 
 #define CH7_OPTION	    CH7_SAVE_WP
-//#define CH7_OPTION	    CH7_FINAL
 
 #define E_GLIDER	    ENABLED
 
-//#define FINAL_TYPE SPIRAL   // Set SPIRAL (SPIRAL: downward circle pattern, LINE: line approach and landing
 #define FINAL_TYPE LINE   
 
 #define MSL_REF		    DISABLED
