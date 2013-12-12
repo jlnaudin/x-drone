@@ -14,6 +14,10 @@ https://github.com/jlnaudin/x-drone/wiki/Videos-of-the-Calmato-missions-piloted-
 
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/MaxiSwift/MaxiSwiftMission8tittle.jpg) (http://player.vimeo.com/video/81333614)
 
+
+![alt text](https://raw.github.com/jlnaudin/x-drone/master/MaxiSwift/MSxplaneHILdemo.jpg) (http://player.vimeo.com/video/81698292)
+
+
 * **MaxiSwift flying wing wiki:** 
 
 https://github.com/jlnaudin/x-drone/wiki/x-drone:-MaxiSwift,-mission-8---Low-altitude-profile-mission
@@ -24,9 +28,6 @@ https://github.com/jlnaudin/x-drone/wiki/X-PLANE-TUTORIAL:-MaxiSwift-installatio
 
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/mission_logs/Calmato_Mission18.jpg "Mission 18 video")
 (http://player.vimeo.com/video/80605879)
-
-![alt text](https://raw.github.com/jlnaudin/x-drone/master/MaxiSwift/MSxplaneHILdemo.jpg (http://player.vimeo.com/video/81698292)
-
 
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoFlight.jpg) (http://player.vimeo.com/video/79610014)
 
