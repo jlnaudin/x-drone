@@ -11,22 +11,21 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 **Latest News:**
 * [x drone: MaxiSwift, mission 28 Windy and Gusty mission test flight] (https://github.com/jlnaudin/x-drone/wiki/x-drone:-MaxiSwift,-mission-28---Windy-and-Gusty-mission-test-flight)
 
-![alt text](https://raw.github.com/jlnaudin/x-drone/master/MaxiSwift/MaxiSwiftMission8tittle.jpg) (http://player.vimeo.com/video/81333614)
+[![alt text](https://raw.github.com/jlnaudin/x-drone/master/MaxiSwift/MaxiSwiftMission8tittle.jpg)](http://player.vimeo.com/video/81333614)
 
-
-![alt text](https://raw.github.com/jlnaudin/x-drone/master/MaxiSwift/MSxplaneHILdemo.jpg) (http://player.vimeo.com/video/81698292)
+[![alt text](https://raw.github.com/jlnaudin/x-drone/master/MaxiSwift/MSxplaneHILdemo.jpg)] (http://player.vimeo.com/video/81698292)
 
 
 * [**MaxiSwift flying wing wiki:**] (https://github.com/jlnaudin/x-drone/wiki/x-drone:-MaxiSwift,-mission-8---Low-altitude-profile-mission)
 
 * [**MaxiSwift for X-plane v9.70 and HIL simulations with the APM**] (https://github.com/jlnaudin/x-drone/wiki/X-PLANE-TUTORIAL:-MaxiSwift-installation-with-X-Plane-v9.70-for-HIL-simulations)
 
-![alt text](https://raw.github.com/jlnaudin/x-drone/master/mission_logs/Calmato_Mission18.jpg "Mission 18 video")
+[![alt text](https://raw.github.com/jlnaudin/x-drone/master/mission_logs/Calmato_Mission18.jpg "Mission 18 video")]
 (http://player.vimeo.com/video/80605879)
 
-![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoFlight.jpg) (http://player.vimeo.com/video/79610014)
+[![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoFlight.jpg)] (http://player.vimeo.com/video/79610014)
 
-![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/APN273xp1FullTest.jpg) (http://player.vimeo.com/video/80052308)
+[![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/APN273xp1FullTest.jpg)] (http://player.vimeo.com/video/80052308)
 
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_hil_mode2.jpg "The Calmato for X-Plane")
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_real_mode1.jpg "The real Calmato tested in flight")
