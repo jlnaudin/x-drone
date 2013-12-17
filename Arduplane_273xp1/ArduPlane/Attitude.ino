@@ -15,7 +15,11 @@ static float get_speed_scaler(void)
     float aspeed, speed_scaler;
     if (ahrs.airspeed_estimate(&aspeed)) {
         if (aspeed > 0) {
+#if X_PLANE == ENABLED    // JLN update
+            speed_scaler = (g.scaling_speed / aspeed) * 0.333f;
+#else
             speed_scaler = g.scaling_speed / aspeed;
+#endif
         } else {
             speed_scaler = 2.0;
         }
