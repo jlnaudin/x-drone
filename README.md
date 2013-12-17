@@ -4,34 +4,6 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 * ArduPilot Mega (APM v1.5, APM v2.x) from 3D Robotics
 * ArduFlyer v2.5.x from RC Timer
 
-[**FULL TUTORIALS** about the ArduPlane v2.73-xp1 installation,tuning parameters and HIL simulations] (https://github.com/jlnaudin/x-drone/wiki)
-
-[**FULL VIDEOS** about the ArduPlane v2.73-xp1 testing and real flights missions] (https://github.com/jlnaudin/x-drone/wiki/Videos-of-the-Calmato-missions-piloted-with-ArduPlane)
-
-**Latest News:**
-* [x drone: MaxiSwift, mission 28 Windy and Gusty mission test flight] (https://github.com/jlnaudin/x-drone/wiki/x-drone:-MaxiSwift,-mission-28---Windy-and-Gusty-mission-test-flight)
-
-[![alt text](https://raw.github.com/jlnaudin/x-drone/master/MaxiSwift/MaxiSwiftMission8tittle.jpg)](http://player.vimeo.com/video/81333614)
-
-[![alt text](https://raw.github.com/jlnaudin/x-drone/master/MaxiSwift/MSxplaneHILdemo.jpg)] (http://player.vimeo.com/video/81698292)
-
-
-* [**MaxiSwift flying wing wiki:**] (https://github.com/jlnaudin/x-drone/wiki/x-drone:-MaxiSwift,-mission-8---Low-altitude-profile-mission)
-
-* [**MaxiSwift for X-plane v9.70 and HIL simulations with the APM**] (https://github.com/jlnaudin/x-drone/wiki/X-PLANE-TUTORIAL:-MaxiSwift-installation-with-X-Plane-v9.70-for-HIL-simulations)
-
-[![alt text](https://raw.github.com/jlnaudin/x-drone/master/mission_logs/Calmato_Mission18.jpg "Mission 18 video")]
-(http://player.vimeo.com/video/80605879)
-
-[![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoFlight.jpg)] (http://player.vimeo.com/video/79610014)
-
-[![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/APN273xp1FullTest.jpg)] (http://player.vimeo.com/video/80052308)
-
-![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_hil_mode2.jpg "The Calmato for X-Plane")
-![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_real_mode1.jpg "The real Calmato tested in flight")
-![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_real_mode2.jpg "The real Calmato tested in flight")
-![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmatodrone.jpg "The Calmato Alpha 40 with the Ground Station")
-![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoMSwing.jpg "The Calmato Alpha 40 and the MaxiSwift tested with ArduPlane")
 #Features
 * Arduino Auto-Pilot and full IMU 3D stabilizer (9DOF, GPS, 3D magnetometer, airspeed sensor...)
 * Ground Station (the Mission Planner from Michael Oborne) with full Mavlink telemetry
@@ -45,6 +17,38 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 * - fully compatible and tested with X-Plane v9.70 in HIL (Hardware In the Loop) mode
 * HIL mode test flights on X-Plane with the the Calmato Alpha virtual model
 * Real test flights with a true Calmato Alpha 40 (Kyosho) electric powered RC plane
+
+[**FULL TUTORIALS** about the ArduPlane v2.73-xp1 installation,tuning parameters and HIL simulations] (https://github.com/jlnaudin/x-drone/wiki)
+
+[**FULL VIDEOS** about the ArduPlane v2.73-xp1 testing and real flights missions] (https://github.com/jlnaudin/x-drone/wiki/Videos-of-the-Calmato-missions-piloted-with-ArduPlane)
+
+**Latest News:**
+* [x drone: MaxiSwift, mission 28 Windy and Gusty mission test flight] (https://github.com/jlnaudin/x-drone/wiki/x-drone:-MaxiSwift,-mission-28---Windy-and-Gusty-mission-test-flight)
+
+* [**MaxiSwift flying wing wiki**] (https://github.com/jlnaudin/x-drone/wiki/x-drone:-MaxiSwift,-mission-8---Low-altitude-profile-mission)
+
+* [**MaxiSwift for X-plane v9.70 and HIL simulations with the APM**] (https://github.com/jlnaudin/x-drone/wiki/X-PLANE-TUTORIAL:-MaxiSwift-installation-with-X-Plane-v9.70-for-HIL-simulations)
+
+#VIDEOS
+[![alt text](https://raw.github.com/jlnaudin/x-drone/master/MaxiSwift/MaxiSwiftMission8tittle.jpg)](http://player.vimeo.com/video/81333614)
+
+[![alt text](https://raw.github.com/jlnaudin/x-drone/master/MaxiSwift/MSxplaneHILdemo.jpg)] (http://player.vimeo.com/video/81698292)
+
+[![alt text](https://raw.github.com/jlnaudin/x-drone/master/mission_logs/Calmato_Mission18.jpg "Mission 18 video")]
+(http://player.vimeo.com/video/80605879)
+
+[![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoFlight.jpg)] (http://player.vimeo.com/video/79610014)
+
+[![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/APN273xp1FullTest.jpg)] (http://player.vimeo.com/video/80052308)
+
+#PHOTOS
+
+![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_hil_mode2.jpg "The Calmato for X-Plane")
+![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_real_mode1.jpg "The real Calmato tested in flight")
+![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_real_mode2.jpg "The real Calmato tested in flight")
+![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmatodrone.jpg "The Calmato Alpha 40 with the Ground Station")
+![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoMSwing.jpg "The Calmato Alpha 40 and the MaxiSwift tested with ArduPlane")
+
 
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_hil_mode1.jpg "The Calmato for X-Plane")
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_real_mode3.jpg "The real Calmato tested in flight")
