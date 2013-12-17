@@ -36,7 +36,8 @@ https://github.com/jlnaudin/x-drone/wiki/X-PLANE-TUTORIAL:-MaxiSwift-installatio
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_hil_mode2.jpg "The Calmato for X-Plane")
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_real_mode1.jpg "The real Calmato tested in flight")
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_real_mode2.jpg "The real Calmato tested in flight")
-![alt text](https://raw.github.com/jlnaudin/x-drone/d696cd643404489d5c261b987d7cffb1705ebdff/images/calmatodrone.jpg "The Calmato Alpha 40 with the Ground Station")
+![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmatodrone.jpg "The Calmato Alpha 40 with the Ground Station")
+![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoMSwing.jpg "The Calmato Alpha 40 and the MaxiSwift tested with ArduPlane")
 #Features
 * Arduino Auto-Pilot and full IMU 3D stabilizer (9DOF, GPS, 3D magnetometer, airspeed sensor...)
 * Ground Station (the Mission Planner from Michael Oborne) with full Mavlink telemetry
