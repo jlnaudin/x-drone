@@ -29,7 +29,6 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 ***
 
 * [**MaxiSwift flying wing wiki**] (https://github.com/jlnaudin/x-drone/wiki/x-drone:-MaxiSwift,-mission-8---Low-altitude-profile-mission)
-
 * [**MaxiSwift for X-plane v9.70 and HIL simulations with the APM**] (https://github.com/jlnaudin/x-drone/wiki/X-PLANE-TUTORIAL:-MaxiSwift-installation-with-X-Plane-v9.70-for-HIL-simulations)
 
 #VIDEOS
