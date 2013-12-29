@@ -4,6 +4,9 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 * ArduPilot Mega (APM v1.5, APM v2.x) from 3D Robotics
 * ArduFlyer v2.5.x from RC Timer
 
+**All these informations are published free in Open Source under GNU licence for a non-commercial and a private use only**
+
+
 #Features
 * Arduino Auto-Pilot and full IMU 3D stabilizer (9DOF, GPS, 3D magnetometer, airspeed sensor...)
 * Ground Station (the Mission Planner from Michael Oborne) with full Mavlink telemetry
