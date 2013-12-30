@@ -27,6 +27,9 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 [**FULL VIDEOS** about the ArduPlane v2.73-xp1 testing and real flights missions] (https://github.com/jlnaudin/x-drone/wiki/Videos-of-the-Calmato-missions-piloted-with-ArduPlane)
 
 #Latest News
+
+* [**X PLANE TUTORIAL: X Plane v10 with ArduPlane v2.73 xp1 in HIL mode simulation**]
+(https://github.com/jlnaudin/x-drone/wiki/X-PLANE-TUTORIAL:-X-Plane-v10-with-ArduPlane-v2.73-xp1-in-HIL-mode-simulation)
 * [**x drone: MaxiSwift, mission 35 comparison of FPL path of Real flight Vs HIL simulation**] (https://github.com/jlnaudin/x-drone/wiki/x-drone:-MaxiSwift,-mission-35---comparison-of-FPL-path-of-Real-flight-Vs-HIL-simulation)
 * [**x drone: MaxiSwift, mission 28 Windy and Gusty mission test flight**] (https://github.com/jlnaudin/x-drone/wiki/x-drone:-MaxiSwift,-mission-28---Windy-and-Gusty-mission-test-flight)
  
