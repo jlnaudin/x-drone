@@ -1,0 +1,1140 @@
+﻿* Mission Planner 1.2.92
+sort saved param list
+wizard tweaks
+remove FS_GPS_ENABLE from FS screen
+add bin file support to most DF log functions
+add wizard to initial setup
+add date timestamp to df over mavlink
+ensure .bin support for matlab file generation.
+fix posible get mavlink param issue.
+add checkbox's to wizard verify
+speedup df over mavlink log dl
+
+* Mission Planner 1.2.91
+fix non standard frame type
+add DF log download over mavlink
+fix DF to kml/gpx, using FMT now
+add more log sort criteria - 0 byte, and invalid/bad
+fix keyboard shortcuts
+bring the wizard out to play
+
+* Mission Planner 1.2.90
+new df over mavlink
+fix grid advanced button
+remove arduino verbose logging
+update mavlink headers (df over mavlink)
+better error handling of bad log lines in DF log
+fix posible log dl issue
+thread fw version download
+
+* Mission Planner 1.2.89
+fix kml/gpx creation
+log browser mod
+df log renaming based on gps time
+fix fw history
+add time from DF logs
+rework logbrowse internals
+rework log downloader
+fix logic error in wizard connect
+update 3drradio config
+regen mavlink headers
+add lock to aviwritter
+move heli setup screen
+modify ac upload fw message
+
+* Mission Planner 1.2.88
+add movingbase display - using nmea gps
+tweak wizard connect
+update sr3 to include sr1
+update h frame
+fix culture issuis on standard and advanced view
+fix spline view/remove
+add prefetch wp path
+add settings load and save for grid
+add low airspeed/groundspeed warnings
+address , vs .
+
+* Mission Planner 1.2.87
+add asratio
+change load iris defaults to use compare
+add okcancel to custom mesagebox
+add partial refresh to pid config screens
+add ability to load default params for frames.
+add rally point display in FD
+add df log to kml in FD
+add grad + dist to FP
+add load and save rally points to file
+interface out df to kml generation
+tweak get params on mavlink log
+fix rally point alt when loading from mav
+update 3drradio config - custom fw, new url, new extension, new max window
+add gpstime
+tweak paramcompare
+add accel scan in control-f
+
+* Mission Planner 1.2.86
+spline display support
+doublebuffer quick view
+move hud message text to bottom of hud & always ontop
+fix processreporterdialog size on mono
+add iris defaults to full param list
+fix rally point alt
+close comport on log download close
+close logbrowse on no file picked
+add internal plla to vector3
+make mavlink log selection form close on new log load
+increase multiple timeouts on mavlink interface - ms
+- setparam 500 > 700
+- get wp count 500 > 700
+- set wp 150 > 700
+- get fence point 500 > 700
+- get rally point 500 > 700
+add better high prio severity message parsing.
+fix 3dr radio config device id
+update H frame icons to I
+tweak wizard connect
+increase connect time - other boards compatability
+remove no rc receiver temp
+
+* Mission Planner 1.2.85
+update map library - this will invalidate your map prefetch
+remove arial narrow and Century Gothic font issues
+add ability to load a kml linestring as a mission
+add kmz overlay and import support
+fix AC imax limits
+add view flightplan as kml
+fix speech over speak
+fix bad first packet in mavlink logs
+support now DF log gps line
+modify getParam timeout from 0.2 to 0.7
+
+* Mission Planner 1.2.84
+add new winddir
+fix px4 uploader same fw error
+update parammetadatabackup.xml
+move log sorting to bg thread
+add null checking in joystick
+modify hb search to only find mav.
+add null and blank check to setmode
+reformat grad sig figures
+limit hillstate output to 40 hz, 50 hz floods serial link
+quad hil in flightgear working.
+fix the way reboot is issued on terminal connect, incase we are at nsh shell
+update gmap to top the 404's
+add Marquee support to my progressbar
+fix spaces in matlab names
+speed up bin log browse
+add bin to log on FD screen
+
+* Mission Planner 1.2.83
+add log sorting
+add password protected config
+add pan and remove from log browse
+fix terminal multiple connect clicks
+fix set home alt button to switch between asl and agl
+add more options to failsafe screen
+add password support to inputbox
+fix posible gmap 404 error
+add px4flow driver to msi
+
+* Mission Planner 1.2.82
+address .net update/issues
+add DO_SET_CAM_TRIGG_DIST
+add msi default tlog application
+update px4uploader
+update ardurover pid screen.
+add 3dr 4 in 1 esc
+update mavlink library
+
+* Mission Planner 1.2.81
+fix guage exception
+change mybutton colours back
+add more grid stats
+add grid map type
+extract mavlink library
+prep for AP 2.5 release
+add ability to add wp mid mission (right click)
+move updater to seperate thread
+add sensor checking
+fix speech data warning and voltage
+add rally points
+add super simple
+add new battery param names
+add support for passing tlog at command line.
+add load to current state
+
+* Mission Planner 1.2.80
+exception fixs
+fix mono menu bar color
+fix wizard connect screen - better error handling
+add default_alt checking
+fix stats file close
+fix mono board detection for px4/pixhawk
+add thisreallyvisible for mono
+add back hud updates in background
+show beta updates as beta
+tweak msi installer
+
+* Mission Planner 1.2.79
+dpinst tweaks
+enable doublebuffer on coords display
+fix progressdialog fontscaling and exception
+relocate survey option to auto wp menu and apply theme
+fix neagtive area on suvery screen
+add trackerhome by Will Bryan
+relocate srtm.cs
+add mnt_mode to action tab
+add verify command action on action tab
+add matlab export
+add beta support
+modify terminal function
+mod + and X images
+mod ParameterMetaDataRepository to be a static class
+add support for MP-latest.zip and msi
+add "3DR 4in 1 ESC"
+remove options from simple pid - now at 3 items.
+fix fence breach warning
+fix genotp
+fix hb sending
+rename main exe
+migrate all old namespace to new namespace
+
+* Mission Planner 1.2.78
+fix stacked windows
+
+* Mission Planner 1.2.77
+fix log download
+modify custommessagebox to start center of parent
+add filebrowse control
+add connected status to hud
+fix background drawing on myprogressbar
+add more info to exception errors
+remove arduheli refrences
+fix hudcolor loading
+fix restart mission. now sends wp 0
+fix 127 ft radius correctly
+fix negative areas
+add wizard icon to help screen
+add all new frame refrences
+fix missing dlls' in msi
+fix messages sticking in hud
+add genotp
+
+* Mission Planner 1.2.76
+fix arducopter pid screen when locals is using , vs .
+fix div by 0 in hud
+fix guage custom color exception
+fix 127 ft radius limit
+increare log read buffer size
+fix for bad gps lines in logs
+
+* Mission Planner 1.2.75
+speed tuning.
+fix ch3out when not connected
+fix dont let current be negative
+support andropilot logs (253 sysid)
+change gmapmaker to cache icon
+fix utmzone calc. (was central meridian, not zone)
+resize some images.
+add utm and mgrs to mouse movement.
+fix sort on grad click
+recalc grad more often.
+add utm grid to FP screen.
+add COMPASS_EXTERNAL support
+fix declination handeling.
+add overstats, and session stats
+support fmuv2 uploading
+add geoutility external lib
+add new coords display in FD
+hud performance tweak
+mainswitcher input validation
+tweak mybutton colors
+add new myprogressbar
+map marker performance tweak
+fix getlongest side in survey interface
+zedgraph symbol performance tweak
+split the deg, min in compass
+add rc9 to gimbal screen
+raw param performance tweak
+anable/disable disconnect button in terminal
+add map to logbrowser
+
+* Mission Planner 1.2.74
+more Grid/Survey WIP
+fix close issue on mono
+implement MagFitRotation from tridge
+add predefined camera list
+update MP update location
+fix some internal exeptions
+fix time/mode display issue
+add realtime to mavlog browser
+add units to GeoFence screen
+fix some mono speed issues in progressbars
+fix exceptions in hud
+add dispose to MainSwitcher
+add ability to draw polygon fills back to gmap.net
+fix servooption error when its been renamed.
+fix missing updater.exe file
+update arduplane pid screen
+add follow path control (rover)
+
+* Mission Planner 1.2.73
+remove DO_SET_PARAMETER - has never worked
+add connect event
+add plugin shutdown on exit
+add highlighting selected item on main menu
+add armed filter to disttraveled
+add wizard quickconnect
+add auto disarm to wizard verify
+add better error handling to log browse time errors
+fix roi display in FP
+add more units to area calc
+add "Help" screen
+fix custom firmware status
+add find to standard and advanced param list.
+more work on new gridv2 + camera intergration
+wip on stats plugin.
+
+* Mission Planner 1.2.72
+menu structure change.  since it missed .71
+support new 3dr radio message
+add find to full param list
+fix poosible memory issue in mylabel
+add support for diffrent overshoot at each end of a grid
+fix messuresting bug with languages with unicode characters.
+add rename support to the servo tab. (right click.)
+
+* Mission Planner 1.2.71
+update wizard accel images to iris
+ensure wizard mag calib works, req streams and mag enable
+identify arduheli
+more plugin interface options
+fix mavlink read packet exception. (bad packet id)
+add time to log browse
+tweak hil interface (wip)
+rearrange menu
+new grid testing
+add rtl_alt to fence
+
+* Mission Planner 1.2.70
+add larger deadzone on map interface.
+convert Measuretext to more efficent cached method
+add new Grid project / plugin wip
+Refactor Utilities to seperate DLL
+convert zedgraph to new cached measuretext
+convert old fw history to nice names (github only)
+remove centimeter to m scaling on standard and adv screens.
+refactor bindingsources on flight data. mac issue.
+remove setting rtl_alt from FP page
+add takeoff command default alt
+extract out Update library
+prep for new px4 reboot method
+fix wp list in log kml files
+fix log issue
+add mode drawing to log browse
+change tlog writing from binarywriter to bufferedstream
+update mavlink definitions from upstream
+change plugin from interface to class
+change msi to install into new directory
+add battery_usedmah estimate
+change home and trackerlocation to public
+add saving of raw data from gps while using followme mode
+
+* Mission Planner 1.2.69
+add png support to direct image injection
+add analytics
+fix plane accel calib
+fix help screen
+
+* Mission Planner 1.2.68
+add vario support.
+add better wms support, as per kogan's mod
+add camera planner - bbasso
+add more plugin interfaces
+add change log to help screen
+add change log to update dialog
+add firmware screen when connected.
+add old accel calib to plane config.
+migrate fw screen to new fw class
+add support for more graphs, 5 to 10
+add custommessagebox link support
+
+* Mission Planner 1.2.67
+fix georegimage bug
+wizard fixs
+new plugintest project
+fix binary log , vs .
+fix kml overlay
+wiki link on fs page
+
+* Mission Planner 1.2.66
+relocate serial/tcp/udp comms to external dll
+try fix serialstream.disposed error
+more plugin system mods
+fix tlog kml generation
+more wizard wip
+new drivers
+fix core mavlink getparam index
+fix logbrowse exception
+fix tlog kmls, always alt asl
+change firmware screen images
+change autoscalemode on custommessagebox (125% fonts)
+add excveption handleing to mavlinkcombobox
+
+* Mission Planner 1.2.65
+custom firmware load fix
+refresh on disconnect
+px4fmu updates
+px4uploader update
+add H, Y6, tri, Heli to frame setup
+
+* Mission Planner 1.2.64
+rename hardware and software config
+change fw screen loading
+wizard wip
+
+* Mission Planner 1.2.63
+relocate controls to external dll
+change mp icon
+add backup metadatafile
+fix altmsl unit scaling
+more wizard wip
+fix gpx time
+fix AP accel
+added ctl + left click = guided mode wp
+move heli screen to software tab
+rename adv param list to full param list
+
+* Mission Planner 1.2.62
+fix hud
+revert fw history
+mod plane accell calib
+fix log playback speed
+
+* Mission Planner 1.2.61
+Wizard WIP
+relocate native methods
+add support for russian hud. - no option to change this yet.
+failsafe options fixed.
+remove history from FW screen - will add back in time.
+reduce osd request rates
+make do_set_roi work
+add more script support (thanks wd40bomber7)
+add left/right support in log browse
+remove dark colors from tlog viewer
+add error message about extracting wp's from tlog when there are none.
+add GetParameterOptions to param metastore
+add update rate to follow me
+fix georef agl vs asl issue = always asl
+fix no data warning endless loop.
+tweak osdvideo - cant be on FD screen
+
+* Mission Planner 1.2.60
+More Wizard (excluded atm - wip)
+add altasl to status tab (altitude above sea level)
+update ac simple pids yaw
+add row numbers to log filter view
+fix hud hideing under mono
+mod quickview layout
+mod log playback speed
+add message about compass calib after FW
+new control gradientbg, progressstep, radialgradientbg, picturemouseover
+
+* Mission Planner 1.2.59
+fix terminal exception
+add back loiter_unlim to copter
+more debug for usb device add and remove
+modify to use relative alt. for ap
+remove eto dependancys
+change log screen, for ap type selction
+change some timeing in flightdata
+change dist traveled on log playback skip
+add better saving of wp_rad and default alt to FP page
+more terminal tweaks for px4
+
+* Mission Planner 1.2.58
+add more python internal support - guided mode/wp's
+remove disconnect on terminal click
+test no memory cache on FD
+fix wprad and default alt on FP load, and save
+remove old waypoint writer support
+change the way terminal resets the apm and connects.
+fix google map loading issue
+
+* Mission Planner 1.2.57
+fix small screen res
+fix cli
+add more python script ability
+fix battery percent quick view
+
+* Mission Planner 1.2.56
+fix param list memory usage
+generate mode list to param data
+generate ch6,7,8 list from param data
+fix Reboot command
+move flight modes screen to software
+make compass calib nicer
+fix simple pid screen
+change autoscalemode, for people that have 125% font size
+fix rangecontrol, memory hog
+
+* Mission Planner 1.2.55
+Fix arduplane software screen.
+fix new basic pids redraw
+
+* Mission Planner 1.2.54
+add new AC pids
+modify theme
+update 3dr radio for new rfd's
+fix a few exceptions
+modify range control
+
+* Mission Planner 1.2.53
+confirm nmea line endings
+fix timeinair reset on connect
+seperate out mini http server
+add more fw history
+modify arducopter config screen
+add better cancel checking in input dialogs
+update battery monitoring screen
+fix arm/disarm speech option
+fix ac fence option on load
+tweaks to make it easyer to compile
+
+* Mission Planner 1.2.52
+revert to vfr_hud.alt
+add prearm warning text
+
+* Mission Planner 1.2.51
+update hil
+add missing baud rates
+NMEA output milliseconds
+fix georef
+add sonar range to status screen
+fix grid/feet issue
+cleanup old mavlink code
+
+* Mission Planner 1.2.50
+fix AR modes on hud
+add binary log fw ap id
+fix kml generatio non new logs
+add bin to log
+add splitter to log browse
+add support for ac 3.0+ accel calib
+
+* Mission Planner 1.2.49
+change update location
+update georefpage
+add compass rotation
+update ac geofence
+add refresh part.
+
+* Mission Planner 1.2.48
+modify accel calib
+mono ssl fix
+add ch6_ dec
+better amazon error handling
+add AC_Fence
+add 3dr radio check on tracker scan
+
+* Mission Planner 1.2.47
+add RPY to nmea output as $GPRPY
+update current state for all mavs connected
+update wix gerneration for rsync uploads and google code
+swarm fixs, new status box's
+add droneshare tlog upload support
+use new firmware APMVERSION: tags
+xplane hil, go back to xplane accel data
+add aerosim sitl support
+speedup friendly config a little
+
+* Mission Planner 1.2.46
+add binary log support
+add new self describing log format
+disable dtr when using px4
+fix failsafe screen
+fix AC accel calib
+mag calib is no 60 seconds from 30
+firmware > add latest fw 
+remember last lat,lng,alt for main map.
+fix swarm initial location
+
+* Mission Planner 1.2.45
+px4 inf mod
+firmware screen mod
+beta fw now from firmware.diydrones.com
+add l1 to arduplane config
+swarm - setup relative to master based on gps coords
+dataflashlog update
+restore dtr on connect
+add control-s to many config forms
+
+* Mission Planner 1.2.44
+disable dtr on connect
+px4 uploader mods
+px4 upload progress
+
+* Mission Planner 1.2.43
+fix advanced param issue.
+mod px4 driver
+allow multiple simulator instances
+gather param types
+
+* Mission Planner 1.2.42
+swarm mods
+AR2 pid update
+SITL sim mods
+
+* Mission Planner 1.2.41
+fix swarming grid
+add mavlink tcp passthough
+
+* Mission Planner 1.2.40
+fix mono start
+fix trap frame definition
+
+* Mission Planner 1.2.39
+px4 detection mod
+.net 3.5 > 4.0
+add new frame type
+add osd config button
+firmware back to autodetect
+fix xplane hil accel and gyro scaling
+eto testing
+
+* Mission Planner 1.2.38
+fix updater
+
+* Mission Planner 1.2.37
+px4 detect - wont work until usb hang is fixed
+new board selcetion in firmware screen
+add 2d fix to hud
+new servo options
+new px4 driver
+px4 uploading
+new quad x8 firmware placeholder.
+fix firmware history error
+add ioboard firmware dl
+fix preflight calib from action tab
+fix grid alt scaling ft/m
+fix quad aerosim hil
+update rover modes
+fix log downloading
+remove gzip updateing
+add miliseconds to mavlink csv's
+
+* Mission Planner 1.2.36
+add red gps status on hud when no gps lock
+disable accel calib button after calibration
+Ateryx fixs
+fix camera shutter dup
+remove fw message after fw upload
+change armed logic
+fix update problem
+add mirrorstream, for mavlink passthrough
+add sorting to mavlink log screen
+add index frame to mjpg avis - HUD
+add hazys lang mods
+add arthurs georef mods
+
+* Mission Planner 1.2.35
+attempt to fix crash on usb pulled unsafe
+add failsafe display to hud
+add custom color thememanager
+add DEV builds to firmware screen.
+update for Ateryx
+increate width on wp dropdown
+fix crash in area calc, with no polygon defined
+fix update home on arm if on flightplanner tab
+mod friendly params screen - to prevent overlap
+add speech arm/disarm
+add message to rc calib about extremes
+fix wp total in action tab
+add {vsp} vert speed to speech options
+update dataflashlog.xml
+
+* Mission Planner 1.2.34
+update german lang thanks mike
+prep for multi mav
+reload home pos on arm
+simple - add rtl and loiter, add mode display
+fix multiple accel runs
+add thememanager - wip, basics going
+mod heli screen as per robert
+add logbrowse filter - still wip
+fix mag calib
+
+* Mission Planner 1.2.33
+fix guided mode alt to accept things other than m
+fix terminal > log download issue.
+fix hud overlay video
+add config to change log directory
+add auto connect method - for mavlink only, no terminal or firmware upload
+rearange joystick disable code
+
+* Mission Planner 1.2.32
+mods for ac 2.9 release
+failsafe screen.
+firmware screen message
+add simple mode
+remove dampening
+add sonar ch7
+remove datetime from message
+mod flightmode screen for ardurover
+
+* Mission Planner 1.2.31
+fix update url
+
+* Mission Planner 1.2.30
+fixup accel calib
+disable roll pitch lock on heli
+thememanager mods
+remove geofence tab
+update for github move
+allow logview to be open more than once
+dataflashlog.xml update
+
+* Mission Planner 1.2.29
+rename DistToMAV to DistToHome
+update df log INAV
+fix terminal/log issue
+fix param refresh
+mod OSDVideo
+fix msi build
+add new single param fetch on connect. should help slow links
+mod freindly param
+
+* Mission Planner 1.2.28
+fix 868 freq range
+modify hud font bitmap cache
+add hud low voltage alert
+add speech to battery monitoring
+add new ac 2.9 fs options
+fix memory leak in FriendlyParams
+fix shutter pushed/notpucshed reversal
+add area calc to flight planner screen, from a polygon
+add osdvideo trial - WIP
+
+* Mission Planner 1.2.27
+add extra decimal place on arducopter config screens
+update ch6_list
+fix quickview double click error
+fix terminal/logview comport problem
+add AC thr accel pids
+modify driver (line ending issue) and resign
+fix config view doubleclick popout
+
+* Mission Planner 1.2.26
+move mavlink structure/currentstate around for future mods
+update old firmware git hashs
+mod some error descriptions
+AP_mount camera trigger mod
+modify raw param display with units/range/desc
+add radio support for 868mhz
+update ch7 options
+updated dataflashlog format
+small df log parser mod for bad gps loc
+renable menu to always dock. right click for autohide
+add ability to trigger camera in grid
+terminal tweaks for bad comport on log download
+add packet sent count for change monitoring
+fix posible timeout on arm/disarm.
+fix car logo
+add {batp} to speech engine
+add OF_Loiter to AC mode list for hud
+mod georefimage to do image overlay
+add basic mavelous support
+
+* Mission Planner 1.2.25
+fix scaling problem on arducopter config tab. when linking is enabled
+
+* Mission Planner 1.2.24
+failsafe: hide element not needed
+ap_limits back - beta
+add new accel setup - beta
+fix planner config screen exception
+fix quickview desc/units if never been configured
+
+* Mission Planner 1.2.23
+ammend serial dispose on usb devices detach
+add item currentstate item description and units
+ammend battery screen for 3dr power module
+add trackbar zoom to flight data
+add unit desccription
+ammend PREFLIGHT_REBOOT_SHUTDOWN timeout
+
+* Mission Planner 1.2.22
+fix speed modification scale
+fix typo on antenna Tracker
+setup for ThemeManager.cs
+new auto hide menu
+
+* Mission Planner 1.2.21
+Antenna Tracker mod from William Bryan
+Scaling mods
+battery screen mods
+failsafe screen pwm checking
+remove reverse radio options when we are using a quad
+config menu reorganise
+add Ateryx stuff
+
+* Mission Planner 1.2.20
+fix airspeed error scale and min ground speed
+modify mount options
+add german lang
+fix terminal baud rate issue
+msi mod- single msi for x86 and x64 and all win os's
+
+* Mission Planner 1.2.19
+check for serial port name hang. and disable
+add more failsafe screen status items
+fix mavlink log graph bug
+
+* Mission Planner 1.2.18
+fix mono crash
+add rxrssi
+fix altitude mis label on mouse over in flight planner
+add trigger camera now action.
+new win8 msi
+
+* Mission Planner 1.2.17
+add nested config page
+add friendly comport names
+add some exception handlers
+add new old firmware hashs
+remove more crom.controls stuff
+enabled change speed
+
+* Mission Planner 1.2.16
+workaround for global_pos_int problem
+fix 3dr iv sensor pin selection
+add ability to disable dist to home on flight data screen
+remove traces of crom.controls (mono)
+fix arm/disarm button
+
+* Mission Planner 1.2.15
+fix hud battery text overlaying
+tweak hud resize
+tweak main switcher
+fix quickview text scaleing
+fix dist to mav.
+added french translation thanks oliver
+change tooltip time
+add 3dr iv
+add distance to home
+dataflashlog update
+
+* Mission Planner 1.2.14
+fix update/blank flightdata screen
+add srtm blank file check
+add Land to modes
+
+* Mission Planner 1.2.13
+remove some mavlink 0.9 code
+add arm/disarm button. Not yet implemented AC and AP Side.
+modify heli setup screen
+modify failsafe screen
+fix old firmware under mono
+workaround mono crash.
+modify planner wp storage
+tweak log dl screen
+add change alt button
+modify tlog wp extractor, multiple extractions
+speed up srtm reading
+fix lang edit.
+
+* Mission Planner 1.2.12
+add arduino chip detect
+fix apm2,2.5 dialog test
+add write timeout. this will stop planner hangs on bad serial devices.
+change quickview decimal places to 0.00
+fix map clicking issue.
+fix wind direction wrapping
+add airspeed use
+modify firmware screen from Marooned
+major flightdata tab change.
+add save/load polygon from file
+add some error handling dialogs
+
+
+* Mission Planner 1.2.11
+Fix ac crosstrack display
+tweak ap_mount
+speed up Terminal
+
+
+* Mission Planner 1.2.10
+add useritems to HUD
+change hdop scale
+fix posible follow me bug (, vs .)
+fix posible friendly params bug (, vs .)
+tweak flightdata log playback timming
+fix gridv2 bug. if no waypoint had been done, the grid wold fail
+tweak some mission upload potential issues
+add ability to get param list from a log (from startup)
+add ability to get the first wp list in a log, if wps where received in that log.
+tweak video capture library timing
+
+
+* Mission Planner 1.2.9
+add est distance traveled
+add est flight time
+AP_Mount now updated
+add expermental firmware options.
+fix hud avi record framerate
+add 2 direction wp circle
+tweak gridv2
+
+
+* Mission Planner 1.2.8
+fix mjpeg stream from VLC.
+add grid mode V2
+fix hdop scaling
+
+* Mission Planner 1.2.7
+add wind from ap
+add wp every x m in grid mode
+fix hil problem
+fix control-s
+update mavlink format
+
+
+* Mission Planner 1.2.6
+add tracker location option.
+fix current sensor screen
+add more right click flight planner options.
+make some connecting error messages more detailed.
+add partial microdrones protocol output
+
+
+* Mission Planner 1.2.5
+add experimental antenna tracker find
+add new apparam eeprom reader
+add ground alt display to hud
+mod stats
+modify guided mode alt selection.
+test flight planner tab on flight data tab
+move some functions to the right click menu
+add xplanes data in/out setup to be automatic.
+add better mission upload handeling.
+
+
+* Mission Planner 1.2.4
+remove geofence tab
+add guided alt remeber
+change wp upload retry to 200 ms
+
+
+* Mission Planner 1.2.3
+hud font move
+add progress bar lock
+add quickview mono fix
+fix centi-degree/degree units
+fix mnt config camera tab
+fix some meters/feet scaling issues
+
+
+* Mission Planner 1.2.2
+add DegreeTracker
+fix popout tab on config page
+add remember last config tab
+fix bytes send count
+fix deactivate bug
+fix ap_limits bug
+fix ap_mount bug
+
+
+* Mission Planner 1.2.1
+add enable/disable to mavlinkcheckbox
+modify my button to curved
+add delay to progress reporter dialog. to ensure correct parent
+Fix Mount screen for AP
+Fix Hardware screen Text
+display roi difrently
+modify HIL/Quad Hil
+update dataflashlog format (thanks randy)
+update mavcmd format for roi
+
+
+* Mission Planner 1.2
+Enable Mount config screen
+Add Quick View (double click to change)
+fix mono updater issue
+RFD900 transmit values Mod
+new mavlink controls (wip)
+
+
+* APM Planner 1.1.99
+Convert to IActivate, IDeactivate scheme, thanks andrew
+add support for rfcomm* interfaces on linux
+fix guage off screen draw mono issue.
+remove use of BackStageViewContentPanel
+andrews spacer changes - not using dues to screen space issue
+change configpanel constructor to load xml directly
+remove IMavlink Interface
+fix hsi off screen draw issue on mono
+modify hud to use sprite fonts, instead of drawing via GDI+
+modify progress reporter to use a 10hz timer to update screen, using invoke/begininvoke fails on mono at 50hz (over 100ms per call).
+fix targetalt and target airspeed jumping issue.
+lots of cleanup on tab switching, ie stoping timers/other
+3dr radio status led update
+update ardurover car icon
+speedup georef image screen. tested on over 1000 images.
+
+* APM Planner 1.1.98
+Modify BackStage View - will change again soon
+modify target alt calc
+change order on param lists
+remove old firmware selection dialog
+add hil mod flag to hil connect
+implement main switcher - will change again soon
+change some invokes to async, to prevent other threads slowing.
+fix mavlink log graphing error
+modify help text
+general mono for mac fixs - still combating https://bugzilla.xamarin.com/show_bug.cgi?id=3124
+
+
+* APM Planner 1.1.97
+add toy Mode
+fix some mono issues
+fix opengl hud issue
+change config font size
+modify mylabel for mono
+modify default telem rates
+add extra sonar option
+remove 0 home alt check
+fix terminal hang issue
+remove application idle call, causes 100% cpu on mono
+update gimbal icons
+modify graph line thinkness
+
+* APM Planner 1.1.96
+Fix camera stab reverse boxs
+add better param data duplicate handling
+add rfd900a
+tweak terminal settings
+
+
+* APM Planner 1.1.95
+fix config panel value change detection
+add loiter_ to AC config screen
+Add praram name to Friendly param, and exception ignoring.
+fix param file note line
+intergrate andrews gimbal config.
+fix any possible log appending issues
+remove old cli planner on connect
+modify speech to not crash on windows mono
+
+* APM Planner 1.1.94
+Fix Issue 668 - typo
+Fix issue 666 - now defaults to mav 1.0 planner
+Fix Issue 665 - mavlink 1.0 is now default
+Fix Issue 663 - increase timeout from 6 seconds to 12 seconds
+Fix Issue 662 - now reads sat count for mav 1.0
+Partial Issue 654 - added current to status, hud still wip
+Fix Issue 648 - add validation to value
+Fix Issue 638 - add delay
+Fix Issue 636 - check for version.txt in app directory
+Fix config panel null bug
+Add more Ardurover config options
+Add Exceptions handling to video format selection
+Add FORMAT_VERSION to param file ignore list
+Fix NOTE param file line
+Add APMRover hidden firmware upload (control-R) on firmware screen.
+fix possible speach engine exception
+add dataflashlog for apmrover
+
+* APM Planner 1.1.93
+fix armed/disarmed message
+
+* APM Planner 1.1.92
+add dump -1 option to log dump
+fix terminal issue with logs
+fix mavlink 1.0 manual/stablaize Mode
+fix config screen showing incorrect tab
+
+* APM Planner 1.1.91
+fix datasource binding exception.
+
+* APM Planner 1.1.90
+3drradio save settings fix
+fix mavlink10 hil scaling
+fix some exceptions
+
+* APM Planner 1.1.89
+add mjpeg video source
+add 16x9 hud
+conform to http/1.1 specs for mjpeg
+
+* APM Planner 1.1.88
+fix updater
+
+* APM Planner 1.1.87
+add popouts in config/setup
+add more text to hud heading nw,ne,sw,se
+add 5 m filter to antenna tracker
+add refresh param buttons
+remove the word old, as people still want it.
+modify telem playback interface with slider bars
+add posible fix to bad grid spacing
+move mavlink code.
+
+* APM Planner 1.1.86
+add ArduRover
+simplify connect
+modify hardware screen
+fix mono terminal issue
+modify 3drradio screen
+modify updater
+
+* APM Planner 1.1.85
+work on opengltest
+fix last missing param
+fix com port selection on connecting to bad comport
+add convert to csv. entire log
+add log caching to image georef. for tlog and logs
+add srtm data caching
+
+* APM Planner 1.1.84
+3dr radio fix's + rfd900
+other misc fixs
+
+* APM Planner 1.1.83
+fix null exception. if connect and not view the link stats, an exception is thrown on disconnect.
+
+* APM Planner 1.1.82
+modify 3dr radio packet size 64 > 32
+add andrews link status Mod - thanks
+add hw voltage to status
+add generic logbrowse pid class "pid-*" > "pid-1"
+
+* APM Planner 1.1.81
+mavlink 1.0 fixs
+simulation hil fix for lorenz
+modify default att rate to 10 hz
+
+* APM Planner 1.1.80
+hazy's lang mod
+more hud mods - shorten lines
+msi work + uploader
+
+* APM Planner 1.1.79
+modify hud
+modify apm1 vs apm2 detector
+
+* APM Planner 1.1.78
+recommit
+
+* APM Planner 1.1.77
+fix param xml namespace issue
+prevent sending unchanged params
+
+* APM Planner 1.1.76
+Modify Hud center
+add 3dr snr's and snr based distance estimate
+display current frame type
+fix disapearing window
+add base xml level to param xml (xml standard)
+add georef kml refrence
+this includes adams new dynamic params
+

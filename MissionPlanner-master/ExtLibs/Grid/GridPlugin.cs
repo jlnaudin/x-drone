@@ -1,0 +1,75 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using GMap.NET.WindowsForms;
+
+namespace MissionPlanner
+{
+    public class GridPlugin : MissionPlanner.Plugin.Plugin
+    {
+        public static MissionPlanner.Plugin.PluginHost Host2;
+
+        public override string Name
+        {
+            get { return "Grid"; }
+        }
+
+        public override string Version
+        {
+            get { return "0.1"; }
+        }
+
+        public override string Author
+        {
+            get { return "Michael Oborne"; }
+        }
+
+        public override bool Init()
+        {
+            return true;
+        }
+
+        public override bool Loaded()
+        {
+            Host2 = Host;
+
+            ToolStripMenuItem but = new ToolStripMenuItem("Survey (Grid)");
+            but.Click += but_Click;
+
+            ToolStripItemCollection col = Host.FPMenuMap.Items;
+            int index = col.Count;
+            foreach (ToolStripItem item in col)
+            {
+                if (item.Text.Equals("Auto WP"))
+                {
+                    index = col.IndexOf(item);
+                    ((ToolStripMenuItem)item).DropDownItems.Add(but);
+                    break;
+                }
+            }
+
+            return true;
+        }
+
+        void but_Click(object sender, EventArgs e)
+        {
+            if (Host.FPDrawnPolygon != null && Host.FPDrawnPolygon.Points.Count > 2)
+            {
+                Form gridui = new GridUI(this);
+                MissionPlanner.Utilities.ThemeManager.ApplyThemeTo(gridui);
+                gridui.ShowDialog();
+            }
+            else
+            {
+                CustomMessageBox.Show("Please define a polygon.", "Error");
+            }
+        }
+
+        public override bool Exit()
+        {
+            return true;
+        }
+    }
+}
