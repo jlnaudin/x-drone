@@ -67,7 +67,9 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoMission16FPL.jpg "The FPL recorded in flight during the mission 16")
 **The flight log of the mission 16**
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/CalmatoMission16.jpg "The flight log of the mission 16")
-![alt text](https://raw.github.com/jlnaudin/x-drone/e70b80f9e0fd244902bcd2584a326f90f9756420/images/ArduFlyerSetup.jpg "ArduFlyer v2.5.2 AP setup")
+![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/APM26miniOSD.jpg "APM v2.6 setup")
+
+![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/ArduFlyerSetup.jpg "ArduFlyer v2.5.2 AP setup")
 More infos at: http://diydrones.com/profile/JeanLouisNaudin
 
 Flights videos at: http://vimeo.com/user5037815/videos
