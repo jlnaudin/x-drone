@@ -1,5 +1,6 @@
 x-Drone 
 =======
+![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/FX61Phantom/FX61Phantom02.jpg "The FX-61 Phantom APM v2.6 setup")
 Experimental researches and developpement of autopilots for aerial plateforms on Arduino boards:
 * ArduPilot Mega (APM v1.5, APM v2.x) from 3D Robotics
 * ArduFlyer v2.5.2 from RC Timer
@@ -55,7 +56,6 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 
 #PHOTOS
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/FX61Phantom/FX61Phantom16.JPG "The FX-61 Phantom")
-![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/FX61Phantom/FX61Phantom02.jpg "The FX-61 Phantom APM v2.6 setup")
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_hil_mode2.jpg "The Calmato for X-Plane")
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_real_mode1.jpg "The real Calmato tested in flight")
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_real_mode2.jpg "The real Calmato tested in flight")
