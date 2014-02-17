@@ -1,7 +1,7 @@
 x-Drone 
 =======
-![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/FX61Phantom/FX61Phantom02.jpg "The FX-61 Phantom APM v2.6 setup")
 Experimental researches and developpement of autopilots for aerial plateforms on Arduino boards:
+![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/FX61Phantom/FX61Phantom02.jpg "The FX-61 Phantom APM v2.6 setup")
 * ArduPilot Mega (APM v1.5, APM v2.x) from 3D Robotics
 * ArduFlyer v2.5.2 from RC Timer
 * APM v2.6 ArduPilot Mega from HobbyGaga
