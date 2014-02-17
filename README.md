@@ -29,6 +29,8 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 #Latest News
 * [**x drone: FX 61 Phantom flying wing tested with ArduPlane v2.73 xp1 and ThermoPilot v7.1**]
 (https://github.com/jlnaudin/x-drone/wiki/x-drone%3A-FX-61-Phantom-flying-wing-tested-with-ArduPlane-v2.73-xp1-and-ThermoPilot-v7.1)
+![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/FX61Phantom/FX61Phantom01.jpg "The FX-61 Phantom")
+
 * [**X PLANE TUTORIAL: X Plane v10 with ArduPlane v2.73 xp1 in HIL mode simulation**]
 (https://github.com/jlnaudin/x-drone/wiki/X-PLANE-TUTORIAL:-X-Plane-v10-with-ArduPlane-v2.73-xp1-in-HIL-mode-simulation)
 * [**x drone: MaxiSwift, mission 35 comparison of FPL path of Real flight Vs HIL simulation**] (https://github.com/jlnaudin/x-drone/wiki/x-drone:-MaxiSwift,-mission-35---comparison-of-FPL-path-of-Real-flight-Vs-HIL-simulation)
