@@ -43,9 +43,10 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 * [**MaxiSwift for X-plane v9.70 and HIL simulations with the APM**] (https://github.com/jlnaudin/x-drone/wiki/X-PLANE-TUTORIAL:-MaxiSwift-installation-with-X-Plane-v9.70-for-HIL-simulations)
 
 #VIDEOS
-[![alt text](https://raw.github.com/jlnaudin/x-drone/master/MaxiSwift/MaxiSwiftMission8tittle.jpg)](http://player.vimeo.com/video/81333614)
 
-[![alt text](https://raw.github.com/jlnaudin/x-drone/master/MaxiSwift/MSxplaneHILdemo.jpg)] (http://player.vimeo.com/video/81698292)
+[![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/FX61Phantom/FX61phantomflight.jpg)](http://player.vimeo.com/video/86909200)
+
+[![alt text](https://raw.github.com/jlnaudin/x-drone/master/MaxiSwift/MaxiSwiftMission8tittle.jpg)](http://player.vimeo.com/video/81333614)
 
 [![alt text](https://raw.github.com/jlnaudin/x-drone/master/mission_logs/Calmato_Mission18.jpg "Mission 18 video")]
 (http://player.vimeo.com/video/80605879)
