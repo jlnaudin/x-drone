@@ -30,7 +30,7 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 #Latest News
 * [**x drone: FX 61 Phantom flying wing tested with ArduPlane v2.73 xp1 and ThermoPilot v7.1**]
 (https://github.com/jlnaudin/x-drone/wiki/x-drone%3A-FX-61-Phantom-flying-wing-tested-with-ArduPlane-v2.73-xp1-and-ThermoPilot-v7.1)
-![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/FX61Phantom/FX61Phantom01.jpg "The FX-61 Phantom")
+![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/FX61Phantom/fx61thermalling01.jpg "The FX-61 Phantom")
 
 * [**X PLANE TUTORIAL: X Plane v10 with ArduPlane v2.73 xp1 in HIL mode simulation**]
 (https://github.com/jlnaudin/x-drone/wiki/X-PLANE-TUTORIAL:-X-Plane-v10-with-ArduPlane-v2.73-xp1-in-HIL-mode-simulation)
@@ -56,7 +56,7 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 [![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/APN273xp1FullTest.jpg)] (http://player.vimeo.com/video/80052308)
 
 #PHOTOS
-![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/FX61Phantom/FX61Phantom16.JPG "The FX-61 Phantom")
+![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/FX61Phantom/fx61thermalling19.JPG "The FX-61 Phantom")
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_hil_mode2.jpg "The Calmato for X-Plane")
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_real_mode1.jpg "The real Calmato tested in flight")
 ![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/calmato_real_mode2.jpg "The real Calmato tested in flight")
