@@ -44,7 +44,7 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 
 #VIDEOS
 
-[![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/FX61Phantom/FX61phantomflight.jpg)](http://player.vimeo.com/video/86909200)
+[![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/FX61Phantom/FX61thermopilot72.jpg)](http://player.vimeo.com/video/87475677)
 
 [![alt text](https://raw.github.com/jlnaudin/x-drone/master/MaxiSwift/MaxiSwiftMission8tittle.jpg)](http://player.vimeo.com/video/81333614)
 
