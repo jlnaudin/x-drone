@@ -28,7 +28,7 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 [**FULL VIDEOS** about the ArduPlane v2.73-xp1 testing and real flights missions] (https://github.com/jlnaudin/x-drone/wiki/Videos-of-the-Calmato-missions-piloted-with-ArduPlane)
 
 #Latest News
-* [%**x drone: FX 61 Phantom flying wing tested in a virtual wind tunnel**]
+* [**x drone: FX 61 Phantom flying wing tested in a virtual wind tunnel**]
 (https://github.com/jlnaudin/x-drone/wiki/x-drone:-FX-61-Phantom-flying-wing-tested-in-a-virtual-wind-tunnel)
 * [**x drone: FX 61 Phantom flying wing in autonomous thermalling with the ThermoPilot v7.2**]
 (https://github.com/jlnaudin/x-drone/wiki/x-drone:-FX-61-Phantom-flying-wing-in-autonomous-thermalling-with-the-ThermoPilot-v7.2)
