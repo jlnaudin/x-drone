@@ -28,6 +28,8 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 [**FULL VIDEOS** about the ArduPlane v2.73-xp1 testing and real flights missions] (https://github.com/jlnaudin/x-drone/wiki/Videos-of-the-Calmato-missions-piloted-with-ArduPlane)
 
 #Latest News
+* [**x drone: FX 61 Phantom flying wing THERMAL SCAN mode test flight with the ThermoPilot v7.2**]
+(https://github.com/jlnaudin/x-drone/wiki/x-drone:-FX-61-Phantom-flying-wing-THERMAL-SCAN-mode-test-flight-with-the-ThermoPilot-v7.2)
 * [**x drone: FX 61 Phantom flying wing tested in a virtual wind tunnel**]
 (https://github.com/jlnaudin/x-drone/wiki/x-drone:-FX-61-Phantom-flying-wing-tested-in-a-virtual-wind-tunnel)
 * [**x drone: FX 61 Phantom flying wing in autonomous thermalling with the ThermoPilot v7.2**]
@@ -45,6 +47,8 @@ Experimental researches and developpement of autopilots for aerial plateforms on
 * [**MaxiSwift for X-plane v9.70 and HIL simulations with the APM**] (https://github.com/jlnaudin/x-drone/wiki/X-PLANE-TUTORIAL:-MaxiSwift-installation-with-X-Plane-v9.70-for-HIL-simulations)
 
 #VIDEOS
+
+[![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/FX61Phantom/FX61-Thermal_Scan01.jpg)](http://player.vimeo.com/video/88044594)
 
 [![alt text](https://raw.github.com/jlnaudin/x-drone/master/images/FX61Phantom/FX61thermopilot72.jpg)](http://player.vimeo.com/video/87475677)
 
